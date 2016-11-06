@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/senecajs/seneca-redis-pubsub-transport.git"
+    "url": "git://github.com/oriben2/seneca-mongo-transport.git"
   },
   "keywords": [
     "seneca",
@@ -28,20 +28,12 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "chai": "^3.5.0",
-    "code": "^4.0.0",
     "lodash": "4.14.1",
-    "mocha": "^3.1.2",
     "mongomq": "^0.3.7",
-    "seneca": "^3.2.1"
   },
   "devDependencies": {
-    "coveralls": "2.x.x",
-    "docco": "0.7.x",
-    "eslint-config-seneca": "3.x.x",
-    "eslint-plugin-hapi": "4.x.x",
-    "eslint-plugin-standard": "2.x.x",
-    "lab": "11.0.x",
+    "mocha": "^3.1.2",
+    "chai": "^3.5.0",
     "seneca": "plugin",
     "seneca-transport-test": "~0.1.3"
   },

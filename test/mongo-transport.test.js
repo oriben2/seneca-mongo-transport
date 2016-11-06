@@ -1,9 +1,9 @@
 /* Copyright (c) 2014-2015 Richard Rodger */
-'use strict'
+'use strict';
 
 var chai = require('chai');
 var expect = chai.expect;
-var TransportTest = require('seneca-transport-test')
+var TransportTest = require('seneca-transport-test');
 
 describe('mongo-transport', function () {
   it('happy-any', function (done) {
