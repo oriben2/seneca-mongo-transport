@@ -24,7 +24,18 @@
   ],
   "author": "Ori Ben Aharon (http://github.com/oriben2)",
   "contributors": [
-    "Ori Ben Aharon (http://github.com/oriben2)"
+    "Ori Ben Aharon (http://github.com/oriben2)",
+    "Richard Rodger (http://richardrodger.com)",
+    "Mohamed Habashy  (https://github.com/Mohamed-Habshey)",
+    "Adrien Becchis (https://github.com/AdrieanKhisbe)",
+    "Dean McDonnell (https://github.com/mcdonnelldean)",
+    "Emer Rutherford (https://github.com/eeswr)",
+    "Oisín Hennessy (https://github.com/code-jace)",
+    "Luca Lanziani (https://github.com/LucaLanziani)",
+    "Maxence Dalmais (https://github.com/maxired)",
+    "Pierre-Jean Leger (https://github.com/Caligone)",
+    "Shane Lacey (https://github.com/shanel262)",
+    "David Gonzalez (https://github.com/dgonzalez)"
   ],
   "license": "MIT",
   "dependencies": {
