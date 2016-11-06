@@ -1,6 +1,6 @@
 version: '2'
 services:
-  redis:
+  mongo:
     build: ./docker
     ports:
-      - "6379:6379"
+      - "27017:27017"

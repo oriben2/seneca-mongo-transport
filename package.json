@@ -1,7 +1,7 @@
 {
-  "name": "seneca-redis-transport",
-  "version": "0.3.0",
-  "description": "Seneca Redis transport",
+  "name": "seneca-mongo-transport",
+  "version": "0.1.0",
+  "description": "Seneca MongoDB transport, built on top of MongoMQ",
   "main": "lib/index.js",
   "scripts": {
     "test": "lab test/*.test.js -r console -c -v -L -t 92",
@@ -18,30 +18,22 @@
     "seneca",
     "transport",
     "plugin",
-    "redis",
-    "pubsub",
-    "pub-sub",
-    "publish",
-    "subscribe"
+    "mongo",
+    "mongomq",
+    "queue"
   ],
-  "author": "Richard Rodger (http://richardrodger.com)",
+  "author": "Ori Ben Aharon (http://github.com/oriben2)",
   "contributors": [
-    "Richard Rodger (http://richardrodger.com)",
-    "Mohamed Habashy  (https://github.com/Mohamed-Habshey)",
-    "Adrien Becchis (https://github.com/AdrieanKhisbe)",
-    "Dean McDonnell (https://github.com/mcdonnelldean)",
-    "Emer Rutherford (https://github.com/eeswr)",
-    "Oisín Hennessy (https://github.com/code-jace)",
-    "Luca Lanziani (https://github.com/LucaLanziani)",
-    "Maxence Dalmais (https://github.com/maxired)",
-    "Pierre-Jean Leger (https://github.com/Caligone)",
-    "Shane Lacey (https://github.com/shanel262)",
-    "David Gonzalez (https://github.com/dgonzalez)"
+    "Ori Ben Aharon (http://github.com/oriben2)"
   ],
   "license": "MIT",
   "dependencies": {
+    "chai": "^3.5.0",
+    "code": "^4.0.0",
     "lodash": "4.14.1",
-    "redis": "2.6.2"
+    "mocha": "^3.1.2",
+    "mongomq": "^0.3.7",
+    "seneca": "^3.2.1"
   },
   "devDependencies": {
     "coveralls": "2.x.x",

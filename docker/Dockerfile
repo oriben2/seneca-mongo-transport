@@ -1,3 +1,3 @@
-FROM redis
+FROM mongo
 
-EXPOSE 6379
+EXPOSE 27017
